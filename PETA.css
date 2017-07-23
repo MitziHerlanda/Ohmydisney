@@ -1,0 +1,237 @@
+body{
+background-image: url(http://www.towemy.com/bild/bg05/elefantbg.gif);
+}
+
+
+header {
+  padding-top: 1px;
+  height:25%;
+  width: 100%;
+  position: fixed;
+  z-index: 10 ;
+  top:0%;
+  left:0%;
+  padding-left: 460px;
+  padding-top: 25px;
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+
+.button1 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #F396A3;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px white;
+}
+
+.button1:hover {background-color: #F06D9B}
+
+.button1:active {
+  background-color: #F396A3;
+  box-shadow: 0 5px #C8C9CB;
+  transform: translateY(4px);
+}
+
+h1{
+  color: white;
+  word-spacing: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+nav {
+  padding-top: 3%;
+  padding-left: 2%;
+  height:100%;
+  width: 4%;
+  position: fixed;
+  z-index: 0;
+  top:30%;
+  left:0%;
+}
+
+.botones{
+  height:25%;
+  width: 100%;
+  position: absolute;
+  z-index: 0 ;
+  top:0%;
+  left:0%;
+  padding-left: 460px;
+  padding-top: 200px;
+  padding-bottom: 10px;
+}
+
+
+
+section {
+padding-left: 10px;
+  height: 700px;
+  width: 660px;
+  background-color: white;
+  position: absolute;
+  z-index: 0;
+  top:55%;
+  left:9%;
+  overflow: scroll;
+}
+
+
+h2{
+  font-family: "Microsoft JhengHei";
+  color:  #F06D9B;
+  word-spacing: 10px;
+}
+
+h3{
+  font-family: "Leelawadee";
+  font-size: 20   px;
+  word-spacing: 4px;
+  color: #F396A3;
+}
+
+
+p{
+  font-family: "Corbel";
+  font-size: 17px;
+  word-spacing: 4px;
+  color: black;
+}
+
+aside {
+  height: 389px;
+  background-color: #F06D9B;
+  width: 12%;
+  position: absolute;
+  z-index: 0;
+  top:55%;
+  left:77.7%;
+  padding: 13px;
+  padding-top: 19px;
+}
+a{
+  font-family: "Corbel";
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+.imagenes{
+  left: 66%;
+  top: 55%;
+  position: absolute;
+  z-index: 0;
+  background-color: black;
+  width: 150px;
+}
+
+.Juego{
+  left: 66%;
+  top: 830px;
+  width: 315px;
+  height: 249px;
+  position: absolute;
+  z-index: 0;
+}
+
+
+.castillo{
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  left:0%;
+  top:1147px;
+}
+
+.contacto{
+  width: 46.5%;
+  height: 50%;
+  position: absolute;
+  z-index: 0;
+  left:0%;
+  top:1363px;
+  padding-left: 70px;
+  border-left: 15%;
+  padding-top: 15px;
+}
+
+
+.formulario{
+  width: 40%;
+  height: 52.5%;
+  position: absolute;
+  z-index: 0;
+  left:51.9%;
+  padding-left: 100px;
+  top:1363px;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  left:0%;
+  top:1692px;
+}
+
+.contacto,
+.formulario,
+footer{
+  background-color: #C8C9CB;
+}
+
+
+
+/* ELEMENTOS DEL FORMULARIO*/
+
+
+
+.button {
+  border-radius: 4px;
+  background-color: #F06D9B;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

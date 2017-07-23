@@ -1,0 +1,47 @@
+.cabecera{
+  background-color: pink;
+  width:80%;
+  left:10%;
+  height: 10%;
+}
+
+.segunda-cabecera{
+  background-color: red;
+  width: 80%;
+  left: 10%;
+  height: 10%;
+  top:12%;
+}
+
+.lado-izquierdo{
+  background-color: cyan;
+  width: 20%;
+  left: 10%; 
+  height: 70%;
+  top:23%;
+}
+
+.contenido{
+  background-color: yellow;
+  width: 38%;
+  left: 31%;
+  height: 70%;
+  top:23%;
+}
+
+.lado-derecho{
+  background-color: purple;
+  width: 20%;
+  left: 70% ;
+  height: 70%;
+  top:23%;
+}
+
+
+.cabecera,
+.segunda-cabecera,
+.lado-izquierdo,
+.contenido,
+.lado-derecho{
+  position: absolute;
+}
